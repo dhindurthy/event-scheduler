@@ -1,5 +1,8 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {enableProdMode} from '@angular/core';
+
+enableProdMode();
 
 import { AppComponent }  from './app.component';
 
