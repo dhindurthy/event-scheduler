@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "app-2.0",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -18,7 +18,8 @@
     "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
-    "lint": "tslint ./src/**/*.ts -t verbose"
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "webpack": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "keywords": [],
   "author": "",
@@ -62,8 +63,23 @@
     "sass-loader": "^5.0.0",
     "tslint": "^3.15.1",
     "typescript": "~2.0.10",
-    "webpack":"^2.2.1",
-    "webpack-dev-server":"^2.3.0"
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.16.1",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.1",
+    "null-loader": "^0.1.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0-rc.0",
+    "webpack-merge": "^2.4.0"
   },
   "repository": {}
 }
