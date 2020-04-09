@@ -1,0 +1,238 @@
+CodeSandbox showing items from an API in a slider way 3 at a time
+-react components; html semantics/fetch api/use data from the api/ getting data at multiple levels of hierarchy; class based-function based components, lifecycle of react comp; props-state
+-what would you do if the API returned too many items at once and you still should show 3 at once
+
+HTTP methods – get/post/put and what do they do
+
+Hoisting JavaScript
+
+Looping through a huge nested json object and fulfilling some weird data manipulation (2)
+-JavaScript for loops and accessing properties in JavaScript objects
+-Object[propertyName] & Object.proppy
+
+A pagination kind of component “stepper” but only with “previous” and “next” buttons and show the active one at a time
+-react component, Methods and passing parameters to the methods in react
+
+JavaScript array and find out missing numbers from 1-5 and separate them to a new array
+-JavaScript for loops and array.push methods
+
+What do you do in a unit//integration test?
+
+How can you make a slider/carousel accessible?
+
+Accessible login form with validations? CodeSandbox
+
+Todo-app react- CodeSandbox and ember-twiddle
+
+CSS media query to target specific screen widths: @media only screen and (max-width: 1165) {} font-size in EM
+
+JavaScript for loop “i - -“ 
+
+Vertical-horizontal centering/ CSS Flex-box vs CSS Grid usage
+
+What all would you think of while writing code CSS HTML JS
+
+Adding comments JavaScript and displaying them on the page.
+-add items to an array and display those items on the page below
+
+Conflicts involving multiple teams/ conflict involving pushback on acceptance criteria/ conflict involving design-product owner
+http headers usage for what?
+Sql idea/ 
+
+
+
+
+Independent contractor questions to be asked:
+I know I gave you an approximate value for it but since I got to know more about the work environment and the duties on the job, I have ended up with more questions I wanted to clarify before coming to a conclusion.
+Question: Will I be a 1099 employee or a W2 employee?
+Confused with Consultant <-> Contractor
+Earlier, I did not consider the fact that I will be a 1099 employee rather than a W2. Please pardon my ignorance on this subject.
+Question: What about the environment requirements there for my daily duties? 
+Question: Will I be provided the required software to do my job? 
+Question: Will I be provided the means of communication to carry on daily duties? Email/Phone/Video conferencing and so on
+Question: Will I have to travel to one of the offices anytime at all? If so, should I be taking care of the expenses for travel/lodging or will it be taken care of?
+Question: Will I be provided any resources for advancing in my duties like trainings/certification sponsoring/ conference attendance?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Questions Prep:
+Tell me about yourself - only professional experience
+	Obsessions of tech; experience; field areas; type of websites; company sizes
+Why are you interested in this job? / Why are you looking for a new job? / Why do you want to work for this company? / Why should we hire you?
+	Praise the company; 
+	Passionate about the tech (web-ally) and this role would let me align my passions with my work experience, for a company that I believe in
+	Have knowledge – want to make use of it and allow my professional interests to grow
+	that you can not only do the work, you can deliver great results; that you'll really fit in with the team and culture; 
+Strengths:
+	OPEN FOR CHANGE – ALWAYS; Ex: New technologies, standards; new tech environments-new people
+	A good communicator; Ex: Attend public facing stuff to communicate/train team in return
+Weakness:
+	I Take it personal and get annoyed when people don’t communicate as per my standards (which they don’t have to-in reality) that’s why weakness
+	Many of my stressful situations involve-result of communication standards of various people- solve it by a long chain of email exchange mostly
+Questions: company's growth (“What can you tell me about your new products or plans for growth or future?")
+
+
+
+
+
+
+
+
+
+Accessibility for developing: 
+Perceivable, Operable, Understandable, Robust- POUR
+Accessible Rich Internet Applications- ARIA
+Associate a label with every form element U
+-	Also form, fieldset/legend(if related/ to specify relation)
+Include alternative (“alt”) text for images P
+Ensure that all interactive elements are accessible by keyboard (–only) O
+Use mark-up to convey meaning and structure P
+-	Maintain semantics by using main, section, article, aside
+Help users avoid and correct mistakes U
+-	Error messages while filling a form. 
+-	Ex: Display a message on error OR have a note in the web page 
+Provide meaning for non-standard interactive elements O
+-	Aria attributes (role, haspopup, expanded) appropriately used. 
+-	Ex: Navigation Menus
+Color contrast with background vs text in the entire webpage P
+No color (red) flash – Nothing should flash within 3 secs or so O
+
+Bonus:
+Reflect reading order in code order U
+-	Structure you code should be same in DOM/webpage
+Language specifications and changes required for language settings
+Responsive websites (Project by itself- I know) R
+Avoid CAPTCHA wherever possible
+
+All of the below only for “developer” considerations
+Perceivable
+•	1.1.1 Non-text Content	Level A
+•	1.3.1 Info and Relationships	Level A
+•	1.3.2 Meaningful Sequence	Level A
+•	1.4.4 Resize Text		Level AA
+•	1.4.5 Images of Text	Level AA
+ Operable
+•	2.1.1 Keyboard		Level A
+•	2.1.2 No Keyboard Trap	Level A
+•	2.2.1 Timing Adjustable	Level A
+•	2.2.2 Pause, Stop, Hide	Level A
+•	2.3.1 Three Flashes or Below Threshold | A
+•	2.4.1 Bypass Blocks		Level A
+•	2.4.2 Page Titled		Level A
+•	2.4.3 Focus Order		Level A
+•	2.4.7 Focus Visible		Level AA
+Understandable
+•	3.1.1 Language of Page	Level A
+•	3.1.2 Language of Parts	Level AA
+•	3.3.1 Error Identification	Level A
+•	3.3.2 Labels or Instructions	Level A
+•	3.3.3 Error Suggestion	Level AA
+Robust
+•	4.1.1 Parsing		Level A
+•	4.1.2 Name, Role Value	Level A
+•	4.1.3 Status Messages 	Level AA(Added in 2.1)
+
+
+Content
+Content is the most important part of your site.
+Use plain language and avoid figures of speech, idioms, and complicated metaphors. 
+Make sure that button, a, and label element content is unique and descriptive. 
+Use left-aligned text for left-to-right languages, and right-aligned text for right-to-left languages.
+
+Global code
+Global code is code that affects your entire website.
+Validate your HTML. Use a lang attribute on the html element.  | Provide a unique title for each page or view. 
+Ensure that viewport zoom is not disabled.  | Use landmark elements to indicate important content regions. 
+Ensure a linear content flow. | Avoid using the autofocus attribute. | Remove session timeouts. 
+Remove title attribute tooltips.
+
+Keyboard
+It is important that your interface and content can be operated, and navigated by use of a keyboard. Some people cannot use a mouse, or may be using other assistive technologies that may not allow for "hovering" or precise clicking.
+ Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input. 
+Check to see that keyboard focus order matches the visual layout. Remove invisible focusable elements.
+
+Images
+Images are a very common part of most websites. There are techniques you can use to help make sure they are enjoyable by all.
+All images
+ Make sure that all img elements have an alt attribute. | Make sure that decorative images have empty alt attribute values. 
+Provide a text alternative for complex images such as charts, graphs, and maps. 
+For images containing text, make sure the alt description includes the image's text.
+SVGs
+SVGs are images described using markup.
+Make sure that svg elements include the code focusable="false" when they are the child element of a focusable element. 
+Add aria-hidden="true" to svg that is decorative. 
+Make sure that svg utilizing the use element has whitespace between the svg and use elements. 
+Ensure that img elements with an svg source includes the role="img"attribute.
+
+Headings
+Heading elements (h1, h2, h3, etc.) help break up the content of the page into related "chunks" of information.
+Use heading elements to introduce content. | Use only one h1 element per page or view. 
+Heading elements should be written in a logical sequence.  | Don't skip heading levels.
+
+Lists
+Lists let people know the content is related, and how many items are included in the grouping.
+ Use list elements (ol, ul, and dl) for list content.
+
+Controls
+Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.
+Use the a element for links. | Ensure that links are recognizable. | Ensure that controls have :focus states. 
+Use the button element for buttons. | Provide a skip link and make sure that it is visible when focused. 
+Identify links that open in a new window.
+
+Forms
+Forms allow people to enter information into a site for processing and manipulation. This includes things like sending messages and placing orders.
+All inputs in a form are associated with a corresponding label element. | Use fieldset and legend elements where appropriate. 
+Inputs use autocomplete where appropriate.
+Make sure that form input errors are displayed in list above the form after submission. 
+Associate input error messaging with the input it corresponds to. 
+Make sure that error, warning, and success states are not visually communicated by just color.
+
+Tables
+Tables are a structured set of data that help people understand the relationships between different types of information.
+Use the table element to describe tabular data. | Use th for table headers (with appropriate scope attributes). 
+Use the caption element to provide a title for the table.
+
+Media
+Media includes content such as pre-recorded and live audio and video.
+Make sure that media does not autoplay. | Ensure that media controls use appropriate markup. | Check to see that all media can be paused.
+Video
+ Confirm the presence of captions. Remove seizure triggers.
+Audio
+ Confirm that transcripts are available.
+
+Appearance
+How your site content looks in any given situation. | Check your content in specialized browsing modes. 
+Increase text size to 200%. | Double-check that good proximity between content is maintained. 
+Make sure color isn't the only way information is conveyed. | Use a simple, straightforward, and consistent layout.
+
+Animation
+Content that moves, either on its own, or when triggered by a person activating a control.
+Ensure animations are subtle and not do not flash too much. | Provide a mechanism to pause background video. 
+Make sure all animation obeys the prefers-reduced-motion media query.
+
+Color contrast
+Color contrast is how legible colors are when placed next to, and on top of each other.
+Check the contrast for all normal-sized text. | Check the contrast for all large-sized text. Check the contrast for all icons. 
+Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.). 
+Check text that overlaps images or video. Check custom ::selection colors.
+
+Mobile/Touch
+Things to check to best support different device form factors.
+Check that the site can be rotated to any orientation. 
+Remove horizontal scrolling. Button and link icons can be activated with ease. 
+Ensure sufficient space between clickable items in order to provide a scroll area.
+
+
