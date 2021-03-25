@@ -1,0 +1,67 @@
+Can you describe the basic principles in OO programming?
+Polymorphism
+Inheritance
+Diamond Problem in Java? - related to Java only supporting single inheritance
+Encapsulation
+Abstraction is also a valid response.
+Should be able to correctly elaborate on each concept, give examples if needed.
+Q: What benefits does Encapsulation provide?
+Clear boundaries around something that can change (change firewall)
+Isolates logic into smaller units so it can be understood easier
+Getters/Setters vs public fields
+Which should you use and why?
+Q: SOLID Principles - Give own definition of at least 1 and give an example
+Single Responsibility - class/method should only have a single job
+Open-closed principle - should be open for extension, closed for modification
+Liskov Substitution - objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+Interface Segregation - many client-specific interfaces are better than one general-purpose interface
+Dependency Inversion - depend upon abstractions, not upon concretions
+Q: Composition vs Inheritance - Which is favored and Why?
+Composition is favored for looser coupling and the fact that in Java, we only have single inheritance - prefer "has a" over "is a" (e.g car has an engine vs is a vehicle)
+
+
+Data Structures
+Q: What is the difference between an Array and a Linked List?
+Arrays are constant-time when it comes to random access, contain no linkages between elements
+Linked Lists contain a reference to the next element in the list on each element, Doubly-linked lists contain references to the previous element as well
+Q: How is a Set different from a list?
+Lists contain duplicates, Sets do not
+It is quicker to check if an object exists in a Set vs in a List
+Q: Can you describe what a HashMap is and how it works?
+Key-Value storage, For all Keys in a HashMap, the hashCode() function is called to calculate the actual value for the hash key
+Bonus Question: Can we use primitives for keys in a HashMap?
+Not directly, since they do not extend Object and so will not have hashCode() implementation, we have to wrap them in the appropriate wrapper class (e.g Integer for int)
+Q: Difference between Queue and Stack?
+Queue is FIFO
+Stack is LIFO
+
+Can you tell us what you know about the differences between HTTP and HTTPS?
+HTTPS is secure HTTP, requests are encrypted whereas HTTP does not have any encryption
+Q: Do you know the difference between Symmetric and Asymmetric encryption?
+Symmetric encryption uses same key for encryption and decryption
+Asymmetric encryption uses different keys (e.g public key to encrypt, private key to decrypt)
+Symmetric encryption is typically faster due to simpler algorithms (not necessary to ask, just another point)
+Q: What is SQL injection? Can you give an example
+Q: How can you guard against SQL injection?
+ Use PreparedStatement (or similar) with bind parameters
+Stored proc calls - SQL inside procs
+Use an ORM which will tend to sit on top of PreparedStatements
+Sanitise input
+Q: When storing data in a database or logging it, how do you decide what should be encrypted/masked?
+This should be mostly common sense - anything sensitive like CC numbers, bank account numbers, etc.
+
+
+Performance
+Q: How would you troubleshoot poor application performance at the Database layer? What sorts of red flags would you look for?
+Inefficient queries/joins
+Network issues
+Large datasets, require indexes
+
+
+Multi Threading
+Q: What do you know about multithreading, why is it used and what benefits does it provide?
+Q: What are some problems that you know of/have experienced with respect to multithreading?
+Race conditions
+Deadlocks - how can you guard against them?
+Q: Any familiarity with the Executor framework in Java and what is it used for?
+What is a Future/CompleteableFuture?
